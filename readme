@@ -1,0 +1,11 @@
+Runing example: ./test.sh
+
+- updated main file: test_sum.py
+- args.py: used arguments
+- data_manager.py: implemented functions to process the data
+- experiments_manager.py : implemented functions to run experiments
+- liris_data_helper.py : functions used to manage/read liris-dataset
+- eev_data_helper.py : functions used to manage/read eev-dataset
+- save_data: for saving the data in a binary file
+- utils.py: include all the used librairies/files
+- video_dataset: used to create liris dataset in a Dataset class.
