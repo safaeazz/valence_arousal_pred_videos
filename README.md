@@ -1,20 +1,18 @@
-![Capture d’écran du 2025-02-08 15-23-18](https://github.com/user-attachments/assets/648926c6-f0ee-4c81-8a38-f929d842ae23)## Summary
+## Summary
 
 Several transformer based models were explored for continuous and discrete emotions prediction using EEV: https://github.com/google-research-datasets/eev and LIRIS: https://liris-accede.ec-lyon.fr/ datasets. 
 We used VIT, STAM, TIMESFORMER, VIVIT, audio spectorgam transformers
 
 
+![Capture d’écran du 2025-02-08 15-23-18](https://github.com/user-attachments/assets/648926c6-f0ee-4c81-8a38-f929d842ae23)
+
+
+You will find a fusion approach in this experiment using the vision transformer (vit) model on the frame level using the continuous version LIRIS-ACCEDE dataset. A spatio-temporal transformer is used for video input and audio transformer encoder for audio input. The fusion was performed at te feature level (learning a shared representation). The table bellow presents the results (PEARSON CORR) obtained comparing three fusion strategies on the LIRIS (EIMT’16) DATASET. Namely, additive, multiplicative and late fusion. The best results were obtained using the multiplication technique with a PCC of 0.42 for the arousal prediction and a PCC of 0.37 for the valence target. The fact that additive way is not performing well, could be explained by low correlation between the image and audio modalities and therefore the two modalities are not equivalent or redundant.
 
 
 
 
-
-
-
-
-
-
-
+![Capture d’écran du 2025-02-08 15-22-30](https://github.com/user-attachments/assets/e78250cb-6de7-4f9d-ad72-62cf7964c066)
 
 
 
