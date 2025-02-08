@@ -12,7 +12,7 @@ You will find a fusion approach in this experiment using the vision transformer 
 
 
 
-![Capture d’écran du 2025-02-08 15-22-30](https://github.com/user-attachments/assets/e78250cb-6de7-4f9d-ad72-62cf7964c066)
+![Capture d’écran du 2025-02-08 15-39-24](https://github.com/user-attachments/assets/7f45670e-2c74-459b-bc77-4cb1e65a1707)
 
 
 
