@@ -1,6 +1,6 @@
 ## Summary: Evoked emotion recognition from videos.
 
-Several transformer based models were explored for continuous and discrete emotions prediction using EEV: https://github.com/google-research-datasets/eev and LIRIS: https://liris-accede.ec-lyon.fr/ datasets. 
+You will find in this repo, several transformer based models were explored for continuous and discrete emotions prediction using EEV: https://github.com/google-research-datasets/eev and LIRIS: https://liris-accede.ec-lyon.fr/ datasets. 
 We used VIT, STAM, TIMESFORMER, VIVIT, audio spectorgam transformers
 
 
